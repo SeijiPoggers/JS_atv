@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // Soma dos primeiros 'x' números naturais
+    let soma = 0 //define o valor inicial da soma como 0 (será alterado futuramente)
+    let input = Number(prompt('Insira um número para o cálculo:')) //pede um valor para o usuário
+
+    let i = 1 //contador para o laço while
+    while (i <= input) {
+        soma += i //define o novo valor de 'soma' (soma = soma + i)
+        i++ //acrescenta +1 ao valor de 'i'
+    }
+
+    alert('A soma dos ' + input + ' primeiros números naturais é igual a: ' + soma)
+</script>
+
+</html>

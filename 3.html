@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let num = Number(prompt('Insira o Número desejado: ')); //Pede o número do qual você deseja saber os múltiplos
+    let max = Number(prompt('Insira o valor máximo que deseja multiplicar: ')); //Pede o número máximo que você deseja múltiplicar
+
+    let tabuada = "";
+    for(let i = 0; i<=max; i++){
+        tabuada += `${num} x ${i} = ${num*i}\n`
+    }
+    window.alert(tabuada)
+</script>
+</html>
